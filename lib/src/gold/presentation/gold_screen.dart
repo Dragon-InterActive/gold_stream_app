@@ -42,9 +42,9 @@ class GoldScreen extends StatelessWidget {
                   }
 
                   return Text(
-                    NumberFormat.simpleCurrency(
+                    '${NumberFormat.simpleCurrency(
                       locale: 'de_DE',
-                    ).format(snapshot.data!),
+                    ).format(snapshot.data!)} / g 24k',
                     style: Theme.of(context).textTheme.headlineLarge!.copyWith(
                       color: Theme.of(context).colorScheme.primary,
                     ),

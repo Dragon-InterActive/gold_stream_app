@@ -6,7 +6,7 @@ class GoldHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Image(
+        const Image(
           image: AssetImage('assets/bars.png'),
           width: 100,
         ),
